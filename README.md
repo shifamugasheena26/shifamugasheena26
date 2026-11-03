@@ -94,8 +94,7 @@ Code is in [DSA-Java](https://github.com/shifamugasheena26/DSA-Java). Sorting al
 
 <div align="center">
 
-<img height="170" alt="Shifa's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=shifamugasheena26&show_icons=true&hide_border=true&bg_color=10070C&title_color=E5B5C7&text_color=F8F0F3&icon_color=C77B9B"/>
-<img height="170" alt="Shifa's top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shifamugasheena26&layout=compact&hide_border=true&bg_color=10070C&title_color=E5B5C7&text_color=F8F0F3"/>
+<img src ="./assets/github-graph.png" alt = "GitHub contribution graph" width="90%">
 
 <br/>
 
