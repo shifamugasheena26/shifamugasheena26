@@ -16,7 +16,7 @@ jobs:
         with:
           github_user_name: shifamugasheena26
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+                        dist/github-contribution-grid-snake.svg?color_snake=%23E5B5C7&color_dots=%23190B12,%23451126,%23701A3D,%23A64D72,%23C77B9B
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
