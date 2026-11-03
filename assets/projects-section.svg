@@ -1,0 +1,294 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1000" height="750" viewBox="0 0 1000 750">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#190B12"/>
+      <stop offset="50%" stop-color="#10070C"/>
+      <stop offset="100%" stop-color="#451126"/>
+    </linearGradient>
+
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#28101B"/>
+      <stop offset="100%" stop-color="#160A11"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#701A3D"/>
+      <stop offset="100%" stop-color="#C77B9B"/>
+    </linearGradient>
+
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#C77B9B" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#C77B9B" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none"
+            stroke="#C77B9B" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .heading {
+        font-family: Arial, sans-serif;
+        font-size: 34px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        fill: #F8F0F3;
+      }
+
+      .subheading {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        letter-spacing: 3px;
+        fill: #C77B9B;
+      }
+
+      .project-title {
+        font-family: Arial, sans-serif;
+        font-size: 19px;
+        font-weight: 700;
+        fill: #F8F0F3;
+      }
+
+      .project-desc {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        fill: #C7AAB7;
+      }
+
+      .tech {
+        font-family: Arial, sans-serif;
+        font-size: 11px;
+        fill: #E5B5C7;
+      }
+
+      .card {
+        fill: url(#card);
+        stroke: #701A3D;
+        stroke-width: 1.2;
+      }
+
+      .arrow-circle {
+        fill: #451126;
+        stroke: #C77B9B;
+        stroke-width: 1.2;
+      }
+
+      .arrow {
+        fill: none;
+        stroke: #F8F0F3;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .arrow-link:hover .arrow-circle {
+        fill: #701A3D;
+      }
+
+      .circuit {
+        fill: none;
+        stroke: #C77B9B;
+        stroke-width: 1;
+        stroke-opacity: .22;
+        stroke-dasharray: 5 9;
+        animation: flow 8s linear infinite;
+      }
+
+      @keyframes flow {
+        to { stroke-dashoffset: -120; }
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: .35; }
+        50% { opacity: .9; }
+      }
+
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-7px); }
+      }
+
+      .glow-dot {
+        animation: pulse 3s ease-in-out infinite;
+      }
+
+      .card-one {
+        animation: float 5s ease-in-out 0s infinite;
+      }
+
+      .card-two {
+        animation: float 5s ease-in-out .5s infinite;
+      }
+
+      .card-three {
+        animation: float 5s ease-in-out 1s infinite;
+      }
+
+      .card-four {
+        animation: float 5s ease-in-out 1.5s infinite;
+      }
+
+      .card-five {
+        animation: float 5s ease-in-out 2s infinite;
+      }
+
+      .card-six {
+        animation: float 5s ease-in-out 2.5s infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="750" fill="url(#bg)"/>
+  <rect width="1000" height="750" fill="url(#grid)"/>
+
+  <circle cx="120" cy="100" r="250" fill="url(#glow)"/>
+  <circle cx="900" cy="620" r="280" fill="url(#glow)"/>
+
+  <!-- Animated circuit lines -->
+  <path class="circuit" d="M0 180H180V140H260"/>
+  <path class="circuit" d="M1000 240H850V280H780"/>
+  <path class="circuit" d="M0 600H150V560H220"/>
+  <path class="circuit" d="M1000 550H870V590H800"/>
+
+  <circle class="glow-dot" cx="180" cy="140" r="3" fill="#E5B5C7"/>
+  <circle class="glow-dot" cx="850" cy="280" r="3" fill="#E5B5C7"/>
+  <circle class="glow-dot" cx="150" cy="560" r="3" fill="#E5B5C7"/>
+
+  <!-- Header -->
+  <text x="500" y="75" text-anchor="middle" class="heading">
+    MY PROJECTS
+  </text>
+
+  <rect x="435" y="95" width="130" height="3" rx="2" fill="url(#accent)"/>
+
+  <text x="500" y="125" text-anchor="middle" class="subheading">
+    BUILDING • LEARNING • IMPROVING
+  </text>
+
+  <!-- Card 1 -->
+  <g class="card-one">
+    <rect x="70" y="175" width="270" height="145" rx="14" class="card"/>
+    <rect x="70" y="175" width="4" height="145" rx="2" fill="url(#accent)"/>
+
+    <text x="95" y="215" class="project-title">Deupload Home Page</text>
+    <text x="95" y="245" class="project-desc">Responsive website design</text>
+    <text x="95" y="278" class="tech">HTML • CSS • BOOTSTRAP</text>
+
+    <a class="arrow-link" target="_blank"
+       href="https://github.com/shifamugasheena26/Deupload-Home-Page"
+       xlink:href="https://github.com/shifamugasheena26/Deupload-Home-Page">
+      <circle cx="305" cy="285" r="17" class="arrow-circle"/>
+      <path d="M297 285H312 M306 279L312 285L306 291" class="arrow"/>
+    </a>
+  </g>
+
+  <!-- Card 2 -->
+  <g class="card-two">
+    <rect x="365" y="175" width="270" height="145" rx="14" class="card"/>
+    <rect x="365" y="175" width="4" height="145" rx="2" fill="url(#accent)"/>
+
+    <text x="390" y="215" class="project-title">Bakery Website</text>
+    <text x="390" y="245" class="project-desc">Bakery landing page</text>
+    <text x="390" y="278" class="tech">HTML • CSS</text>
+
+    <a class="arrow-link" target="_blank"
+       href="https://github.com/shifamugasheena26/Bakery-webpage"
+       xlink:href="https://github.com/shifamugasheena26/Bakery-webpage">
+      <circle cx="600" cy="285" r="17" class="arrow-circle"/>
+      <path d="M592 285H607 M601 279L607 285L601 291" class="arrow"/>
+    </a>
+  </g>
+
+  <!-- Card 3 -->
+  <g class="card-three">
+    <rect x="660" y="175" width="270" height="145" rx="14" class="card"/>
+    <rect x="660" y="175" width="4" height="145" rx="2" fill="url(#accent)"/>
+
+    <text x="685" y="215" class="project-title">Blog Page</text>
+    <text x="685" y="245" class="project-desc">Simple blog page layout</text>
+    <text x="685" y="278" class="tech">HTML • CSS</text>
+
+    <a class="arrow-link" target="_blank"
+       href="https://github.com/shifamugasheena26/Blog-Page"
+       xlink:href="https://github.com/shifamugasheena26/Blog-Page">
+      <circle cx="895" cy="285" r="17" class="arrow-circle"/>
+      <path d="M887 285H902 M896 279L902 285L896 291" class="arrow"/>
+    </a>
+  </g>
+
+  <!-- Card 4 -->
+  <g class="card-four">
+    <rect x="70" y="355" width="270" height="145" rx="14" class="card"/>
+    <rect x="70" y="355" width="4" height="145" rx="2" fill="url(#accent)"/>
+
+    <text x="95" y="395" class="project-title">DOM Practice</text>
+    <text x="95" y="425" class="project-desc">JavaScript DOM manipulation</text>
+    <text x="95" y="458" class="tech">JAVASCRIPT • DOM</text>
+
+    <a class="arrow-link" target="_blank"
+       href="https://github.com/shifamugasheena26/DOM-PROJECT"
+       xlink:href="https://github.com/shifamugasheena26/DOM-PROJECT">
+      <circle cx="305" cy="465" r="17" class="arrow-circle"/>
+      <path d="M297 465H312 M306 459L312 465L306 471" class="arrow"/>
+    </a>
+  </g>
+
+  <!-- Card 5 -->
+  <g class="card-five">
+    <rect x="365" y="355" width="270" height="145" rx="14" class="card"/>
+    <rect x="365" y="355" width="4" height="145" rx="2" fill="url(#accent)"/>
+
+    <text x="390" y="395" class="project-title">DSA in Java</text>
+    <text x="390" y="425" class="project-desc">Problem solving and practice</text>
+    <text x="390" y="458" class="tech">JAVA • DSA</text>
+
+    <a class="arrow-link" target="_blank"
+       href="https://github.com/shifamugasheena26/DSA-Java"
+       xlink:href="https://github.com/shifamugasheena26/DSA-Java">
+      <circle cx="600" cy="465" r="17" class="arrow-circle"/>
+      <path d="M592 465H607 M601 459L607 465L601 471" class="arrow"/>
+    </a>
+  </g>
+
+  <!-- Card 6 -->
+  <g class="card-six">
+    <rect x="660" y="355" width="270" height="145" rx="14" class="card"/>
+    <rect x="660" y="355" width="4" height="145" rx="2" fill="url(#accent)"/>
+
+    <text x="685" y="395" class="project-title">Learning Journey</text>
+    <text x="685" y="425" class="project-desc">Full-stack learning practice</text>
+    <text x="685" y="458" class="tech">HTML • CSS • JAVASCRIPT</text>
+
+    <a class="arrow-link" target="_blank"
+       href="https://github.com/shifamugasheena26/Full-Stack-Learning"
+       xlink:href="https://github.com/shifamugasheena26/Full-Stack-Learning">
+      <circle cx="895" cy="465" r="17" class="arrow-circle"/>
+      <path d="M887 465H902 M896 459L902 465L896 471" class="arrow"/>
+    </a>
+  </g>
+
+  <!-- Footer -->
+  <path d="M250 565H750" stroke="#701A3D" stroke-width="1"/>
+  <circle cx="250" cy="565" r="3" fill="#C77B9B"/>
+  <circle cx="750" cy="565" r="3" fill="#C77B9B"/>
+
+  <text x="500" y="610" text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="13" letter-spacing="3"
+        fill="#C77B9B">
+    EVERY PROJECT IS A STEP FORWARD
+  </text>
+
+  <text x="500" y="650" text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="11" letter-spacing="2"
+        fill="#8D6275">
+    DESIGNED &amp; DEVELOPED BY SHIFA
+  </text>
+
+</svg>

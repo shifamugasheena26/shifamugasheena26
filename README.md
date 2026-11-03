@@ -12,108 +12,110 @@
 
 </div>
 
----
 
-## 👋 About Me
-
-I am a recent **Bachelor of Computer Applications (BCA)** graduate from **Jamal Mohamed College**, based in **Tamil Nadu, India**. My focus is full stack web development. I am building a foundation in **Java**, **JavaScript**, **HTML**, and **CSS**, and I am currently learning the **MERN stack** under a mentor.
-
-I am looking for **entry-level software developer** opportunities where I can keep growing, contribute to real product features, and learn from an experienced team.
-
----
-
-## 🎓 Education
-
-**Bachelor of Computer Applications (BCA)**
-Jamal Mohamed College · CGPA: **8.52**
+<p align="center">
+  <a href="https://www.linkedin.com/in/shifamugasheena26/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-DB6B9A?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://leetcode.com/u/BREgy9DHhJ/">
+    <img src="https://img.shields.io/badge/LeetCode-Profile-DB6B9A?style=for-the-badge&logo=leetcode&logoColor=white" />
+  </a>
+  <a href="mailto:shifamugasheena26@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-DB6B9A?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
 
 ---
 
-## 🛠 Technical Skills
+<p align="center">
+  <img src="assets/about-me.svg" width="100%" alt="About Me" />
+</p>
 
-**Programming Languages**
-- Java (fundamentals)
-- JavaScript (learning)
+<!-- <p align="center">
+  <!-- PHOTO: Replace this file with your own photo -->
+  <!-- <img src="assets/shifa-photo.jpg" width="200" alt="Shifa Mugasheena" />
+</p> --> 
 
-**Frontend Development**
-- HTML
-- CSS
-- Responsive web design
+<!-- <p align="center">
+  I'm a BCA graduate and an aspiring Software Developer.
+  <br/>
+  Currently learning web development and improving my programming skills.
+  <br/>
+  I enjoy learning new technologies and building projects.
+</p> -->
 
-**Backend / Full Stack**
-- Currently learning the MERN stack
-- Learning JavaScript concepts and preparing to move towards React
-
-**Problem Solving**
-- Data Structures and Algorithms using Java
-- Practised problems on Arrays, Strings, Hashing, Matrix, Sorting, Two Pointers, Binary Search, and Stack
-
----
-
-## 🌱 Currently Learning
-
-- **MERN stack** (MongoDB, Express, React, Node.js), guided by a mentor
-- **JavaScript** fundamentals, moving toward **React**
-- **Data Structures & Algorithms** in Java
 
 ---
 
-## 🚀 Projects
+<p align="center">
+  <img src="assets/title-work.svg" width="100%" alt="Projects" />
+</p>
 
-Projects below are taken from my public repositories.
 
-| Project | Description | Technologies | Repository |
-|---|---|---|---|
-| **Deupload** | Frontend landing page for a decentralized cloud storage service | HTML, CSS, Bootstrap | [View repo](https://github.com/shifamugasheena26/Deupload-Home-Page) |
-| **Bakery Website** | Bakery website layout | HTML, CSS | [View repo](https://github.com/shifamugasheena26/Bakery-webpage) |
-| **Blog Page** | Blog page layout | HTML, CSS | [View repo](https://github.com/shifamugasheena26/Blog-Page) |
-| **DOM Practice Projects** | Exercises on the DOM, callbacks, AJAX, and HTTP requests | JavaScript | [View repo](https://github.com/shifamugasheena26/DOM-PROJECT) |
-| **DSA in Java** | Java implementations of sorting and array problems | Java | [View repo](https://github.com/shifamugasheena26/DSA-Java) |
+<!-- MY PROJECTS -->
+<p align="center">
+  <img
+    src="./assets/projects-section.svg"
+    alt="My Projects"
+    width="100%"
+  />
+</p>
 
-**Learning repositories**
-- [Full-Stack-Learning](https://github.com/shifamugasheena26/Full-Stack-Learning): HTML, CSS, and JavaScript practice
-- [JavaScript-Fundamentals](https://github.com/shifamugasheena26/JavaScript-Fundamentals): JavaScript basics
-- [java-basics](https://github.com/shifamugasheena26/java-basics): Java basics and string practice
 
----
-
-## 🧮 DSA & Problem Solving
-
-I practise data structures and algorithms in **Java**, focusing on:
-
-- **Arrays & Strings**
-- **Hashing** and **Matrix** problems
-- **Sorting** and **Binary Search**
-- **Two Pointers** and **Stack**
-
-Code is in [DSA-Java](https://github.com/shifamugasheena26/DSA-Java). Sorting algorithms covered there include bubble, selection, and insertion sort.
 
 ---
 
-## 📊 GitHub Activity
+<p align="center">
+  <img src="assets/title-toolkit.svg" width="100%" alt="Tech Stack" />
+</p>
 
-<div align="center">
-
-<img src="./assets/github-graph.png" alt = "GitHub contribution graph" width="90%">
-
-<br/>
-
-**[View the full contribution graph on GitHub →](https://github.com/shifamugasheena26)**
-
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,java,react,nodejs,mongodb,mysql,git,github,vscode" />
+</p>
 
 ---
 
-## 📫 Contact & Professional Links
+<p align="center">
+  <img src="assets/title-contribution.svg" width="100%" alt="Tech Stack" />
+</p>
+
+ <p align="center">
+  <img
+    src="https://raw.githubusercontent.com/shifamugasheena26/shifamugasheena26/output/github-contribution-grid-snake.svg"
+    width="100%"
+    alt="GitHub Contribution Snake"
+  />
+</p>
+
+---
+
+<p align="center">
+  <img src="assets/title-certifications.svg" width="100%" alt="Current Focus" />
+</p>
+
+- Strengthening JavaScript fundamentals.
+- Practicing Java and Data Structures & Algorithms.
+- Learning the MERN stack.
+- Building hands-on projects.
+
+---
+
+<p align="center">
+  <img src="assets/title-connect.svg" width="100%" alt="Connect With Me" />
+</p>
+
+
+
 
 [![GitHub](https://img.shields.io/badge/GitHub-shifamugasheena26-701A3D?style=for-the-badge&logo=github&logoColor=F8F0F3)](https://github.com/shifamugasheena26)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shifamugasheena26-701A3D?style=for-the-badge&logo=linkedin&logoColor=F8F0F3)](https://www.linkedin.com/in/shifamugasheena26/)
 [![Email](https://img.shields.io/badge/Email-shifamugasheena26@gmail.com-701A3D?style=for-the-badge&logo=gmail&logoColor=F8F0F3)](mailto:shifamugasheena26@gmail.com)
 
 ---
-
 <div align="center">
 
 <img src="./assets/footer.svg" alt="Shifa Mugasheena footer" width="100%"/>
 
 </div>
+
+---

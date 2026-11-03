@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="100" viewBox="0 0 1000 100">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#8f285b"/><stop offset="1" stop-color="#ef8db8"/></linearGradient></defs>
+<rect x="2" y="8" width="996" height="84" rx="18" fill="#260d1c" stroke="#71304e"/><rect x="2" y="8" width="9" height="84" rx="4" fill="url(#g)"/>
+<text x="42" y="65" fill="#ffe8f1" font-family="Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="3">CONTRIBUTIONS</text>
+<path d="M820 50h125" stroke="#d96b9e" stroke-width="2"/><circle cx="955" cy="50" r="6" fill="#f3a5c7"/>
+</svg>
