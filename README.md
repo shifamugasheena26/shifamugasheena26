@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero-banner.svg" alt="Shifa Mugasheena - Aspiring Software Developer" width="100%"/>
+<img src="./assets/hero-banner.svg" alt="shifa Mugasheena.A - Aspiring Software Developer " width="100%"/>
 
 <br/>
 
@@ -83,7 +83,7 @@
   <img
     src="https://raw.githubusercontent.com/shifamugasheena26/shifamugasheena26/output/github-contribution-grid-snake.svg"
     width="100%"
-    alt="GitHub Contribution Snake"
+    alt=" GitHub Contribution Snake"
   />
 </p>
 

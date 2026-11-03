@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="hero-title hero-desc">
-  <title id="hero-title">Shifa Mugasheena - Aspiring Software Developer</title>
+  <title id="hero-title"> Shifa Mugasheena - Aspiring Software Developer </title>
   <desc id="hero-desc">Animated burgundy banner with the name SHIFA MUGASHEENA, the role Aspiring Software Developer and a glowing rose underline.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -63,7 +63,7 @@
   <!-- Name -->
   <g opacity="1">
     <animate attributeName="opacity" values="0;1" dur="1.6s" fill="freeze"/>
-    <text x="500" y="138" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="8" fill="#F8F0F3">SHIFA MUGASHEENA</text>
+    <text x="500" y="138" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="8" fill="#F8F0F3">SHIFA MUGASHEENA.A</text>
   </g>
 
   <!-- Glowing underline (grows from centre; full line is the static fallback) -->
@@ -79,11 +79,11 @@
   <!-- Role -->
   <g opacity="1">
     <animate attributeName="opacity" values="0;1" dur="1.2s" begin="1.6s" fill="freeze"/>
-    <text x="500" y="196" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" letter-spacing="4" fill="#E5B5C7">Aspiring Software Developer<tspan fill="#C77B9B">_</tspan></text>
+    <text x="500" y="196" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" letter-spacing="4" fill="#E5B5C7">Aspiring Software Developer <tspan fill="#C77B9B"></tspan></text>
   </g>
 
   <!-- Stack tags -->
-  <text x="500" y="240" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#C77B9B" opacity="0.85">JAVA  ·  JAVASCRIPT  ·  HTML  ·  CSS  ·  MERN (LEARNING)</text>
+  <text x="500" y="240" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#C77B9B" opacity="0.85">JAVA  ·  JAVASCRIPT  ·  HTML  ·  CSS  ·  MERN </text>
 
   <!-- Corner brackets -->
   <g fill="none" stroke="#E5B5C7" stroke-opacity="0.35" stroke-width="1.5">
