@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">Shifa Mugasheena - Aspiring Software Developer</title>
+  <desc id="hero-desc">Animated burgundy banner with the name SHIFA MUGASHEENA, the role Aspiring Software Developer and a glowing rose underline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10070C"/>
+      <stop offset="0.55" stop-color="#190B12"/>
+      <stop offset="1" stop-color="#451126"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#701A3D"/>
+      <stop offset="0.5" stop-color="#C77B9B"/>
+      <stop offset="1" stop-color="#701A3D"/>
+      <animate attributeName="x1" values="-1;1;-1" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2;0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glowRose" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowWine" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#C77B9B" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+    <filter id="blur" x="-20%" y="-200%" width="140%" height="500%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <!-- Base layers -->
+  <rect width="1000" height="300" fill="url(#bg)"/>
+  <rect width="1000" height="300" fill="url(#grid)"/>
+
+  <!-- Ambient glows -->
+  <circle cx="830" cy="50" r="200" fill="url(#glowWine)">
+    <animate attributeName="r" values="190;215;190" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="270" r="220" fill="url(#glowRose)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Technical circuit traces with flowing pulses -->
+  <g fill="none" stroke="url(#accent)" stroke-width="1.5" stroke-linecap="round" opacity="0.7">
+    <path pathLength="100" stroke-dasharray="14 86" d="M0 58 H170 L200 88 H380">
+      <animate attributeName="stroke-dashoffset" values="0;-100" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path pathLength="100" stroke-dasharray="14 86" d="M1000 236 H820 L790 206 H640">
+      <animate attributeName="stroke-dashoffset" values="0;-100" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <path pathLength="100" stroke-dasharray="10 90" d="M860 30 V70 L840 90 H700">
+      <animate attributeName="stroke-dashoffset" values="0;-100" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#C77B9B" opacity="0.6">
+    <circle cx="380" cy="88" r="3"/>
+    <circle cx="640" cy="206" r="3"/>
+    <circle cx="700" cy="90" r="3"/>
+  </g>
+
+  <!-- Name -->
+  <g opacity="1">
+    <animate attributeName="opacity" values="0;1" dur="1.6s" fill="freeze"/>
+    <text x="500" y="138" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="8" fill="#F8F0F3">SHIFA MUGASHEENA</text>
+  </g>
+
+  <!-- Glowing underline (grows from centre; full line is the static fallback) -->
+  <rect x="300" y="158" width="400" height="6" rx="3" fill="#C77B9B" opacity="0.5" filter="url(#blur)">
+    <animate attributeName="x" values="500;300" dur="1.8s" begin="0.8s" fill="freeze"/>
+    <animate attributeName="width" values="0;400" dur="1.8s" begin="0.8s" fill="freeze"/>
+  </rect>
+  <rect x="300" y="160" width="400" height="2" rx="1" fill="url(#accent)">
+    <animate attributeName="x" values="500;300" dur="1.8s" begin="0.8s" fill="freeze"/>
+    <animate attributeName="width" values="0;400" dur="1.8s" begin="0.8s" fill="freeze"/>
+  </rect>
+
+  <!-- Role -->
+  <g opacity="1">
+    <animate attributeName="opacity" values="0;1" dur="1.2s" begin="1.6s" fill="freeze"/>
+    <text x="500" y="196" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="20" letter-spacing="4" fill="#E5B5C7">Aspiring Software Developer<tspan fill="#C77B9B">_</tspan></text>
+  </g>
+
+  <!-- Stack tags -->
+  <text x="500" y="240" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="3" fill="#C77B9B" opacity="0.85">JAVA  ·  JAVASCRIPT  ·  HTML  ·  CSS  ·  MERN (LEARNING)</text>
+
+  <!-- Corner brackets -->
+  <g fill="none" stroke="#E5B5C7" stroke-opacity="0.35" stroke-width="1.5">
+    <path d="M24 44 V24 H44"/>
+    <path d="M956 24 H976 V44"/>
+    <path d="M24 256 V276 H44"/>
+    <path d="M956 276 H976 V256"/>
+  </g>
+</svg>
