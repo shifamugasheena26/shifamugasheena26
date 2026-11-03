@@ -94,7 +94,7 @@ Code is in [DSA-Java](https://github.com/shifamugasheena26/DSA-Java). Sorting al
 
 <div align="center">
 
-<img src ="./assets/github-graph.png" alt = "GitHub contribution graph" width="90%">
+<img src="./assets/github-graph.png" alt = "GitHub contribution graph" width="90%">
 
 <br/>
 
