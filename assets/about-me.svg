@@ -176,7 +176,7 @@
   <!-- Photo placeholder -->
   <!-- My Photo -->
 <image
-  xlink:href="Shifa-photo.jpg"
+  xlink:href="https://raw.githubusercontent.com/shifamugasheena26/shifamugasheena26/main/assets/shifa-photo.jpg"
   x="400"
   y="210"
   width="200"
