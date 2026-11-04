@@ -31,10 +31,10 @@
   <img src="assets/about-me.svg" width="100%" alt="About Me" />
 </p>
 
-<!-- <p align="center">
+<!-- <p align="center"> -->
   <!-- PHOTO: Replace this file with your own photo -->
-  <!-- <img src="assets/shifa-photo.jpg" width="200" alt="Shifa Mugasheena" />
-</p> --> 
+  <!-- <img src="assets/shifa-photo.jpg" width="100" alt="Shifa Mugasheena" />
+</p>  -->
 
 <!-- <p align="center">
   I'm a BCA graduate and an aspiring Software Developer.

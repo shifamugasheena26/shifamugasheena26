@@ -152,7 +152,8 @@
   <!-- Center orbit -->
   <circle cx="500" cy="310" r="135"
           fill="none" stroke="#701A3D"
-          stroke-width="1.5" stroke-dasharray="5 8"/>
+          stroke-width="1.5" stroke-dasharray="5 8"
+      />
 
   <circle cx="500" cy="310" r="120"
           fill="none" stroke="url(#ring)"
